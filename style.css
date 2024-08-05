@@ -1,0 +1,327 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FFFFFF;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+b {
+    color: #ccff33;
+}
+
+.greenagrotech-section p {
+    margin-bottom: 20px;
+    line-height: 1.6; 
+}
+
+header {
+    background-color: #ccff33;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+nav ul.menu {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul.menu li.menu-item {
+    margin-right: 20px;
+}
+
+nav ul.menu li.menu-item a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.banner-section {
+    position: relative;
+    margin: 0 auto; 
+    text-align: center;
+}
+
+.banner-wrapper {
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.banner-image {
+    width: 100%;
+    height: 100%;
+    max-height: 500px;
+    display: block;
+}
+
+.banner-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ccff33;
+    color: #FFFFFF;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.banner-button:hover {
+    background-color: #99cc29;
+    transform: translate(-50%, -50%) scale(1.1);
+}
+
+h2 {
+    text-align: center;
+}
+
+.greenagrotech-section {
+    padding: 20px;
+    text-align: justify;
+}
+
+.greenagrotech-section h2 {
+    margin-top: 40px;
+    margin-bottom: 20px; 
+    color: #ccff33;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.introducao-content,
+.missao-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.introducao-imagem,
+.missao-imagem,
+.conclusao-imagem {
+    width: 480px; 
+    height: 600px; 
+    max-width: 100%; 
+    margin-left: 20px; 
+}
+
+.missao-imagem {
+    margin-left: 0;
+    margin-right: 20px;
+}
+
+.introducao-text,
+.missao-text,
+.conclusao-content {
+    flex: 1;
+    text-align: justify;
+    color: black;
+}
+
+.introducao-text h2,
+.missao-text h2,
+.conclusao-content h2 {
+    text-align: center;
+    color: #ccff33; 
+    font-family: 'PT Sans Narrow', sans-serif;
+    margin-top: 0;
+}
+
+.conclusao-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 20px; 
+}
+
+strong {
+    color: #ccff33;
+}
+
+.site-do-agro-green-tech-footer {
+    background-color: #ccff33;
+    color: #FFFFFF;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.sessao-footer-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 20px 0;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    flex: 1;
+    margin: 10px;
+    min-width: 200px;
+}
+
+.footer-section h3 {
+    font-family: 'PT Sans Narrow', sans-serif;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+
+.footer-section p,
+.footer-section a {
+    font-family: 'Roboto', sans-serif;
+    color: #FFFFFF;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+.footer-section a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.footer-section a:hover {
+    text-decoration: underline;
+}
+
+.footer-botao {
+    border-top: 1px solid #FFFFFF;
+    padding-top: 10px;
+}
+
+.footer-section ul {
+    list-style-type: none;  
+    padding-left: 0;       
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;   
+}
+
+.imagens-secundarias {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.segundarias-imagens {
+    text-align: center;
+    margin: 0 10px;
+}
+
+.imagens-do-encontra-aqui {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease-in-out; 
+}
+
+.imagens-do-encontra-aqui:hover {
+    transform: scale(1.1); 
+}
+
+.texto-aleatorio-section {
+    background-color: #ccff33;
+    color: #FFFFFF;
+    padding: 20px;
+    text-align: justify;
+}
+
+.texto-aleatorio-section h2 {
+    margin-bottom: 10px;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.texto-aleatorio-section p {
+    font-family: 'Roboto', sans-serif;
+}
+
+.finalmente-o-final-section {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.final-imagem {
+    width: 480px;
+    height: 500px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.final-texto {
+    flex: 1;
+    text-align: justify;
+}
+
+.final-texto h2 {
+    color: #ccff33;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.final-texto p {
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.sem-eventos-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #ffffff; 
+}
+
+.sem-eventos-content {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    max-width: 1000px;
+    width: 100%;
+}
+
+.sem-eventos-imagem {
+    width: 500px;
+    height: 500px;
+    margin-right: 20px;
+}
+
+.sem-eventos-texto {
+    max-width: 600px;
+}
+
+.sem-eventos-texto h2 {
+    color: #ccff33;
+    font-family: 'PT Sans Narrow', sans-serif;
+    margin-bottom: 10px;
+}
+
+.sem-eventos-texto p {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    line-height: 1.6;
+}
